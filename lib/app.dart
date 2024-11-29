@@ -1,6 +1,4 @@
 import 'package:first_flutter_app/view/dashboard_view.dart';
-import 'package:first_flutter_app/view/first_view.dart';
-import 'package:first_flutter_app/view/arithmetic_view.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {

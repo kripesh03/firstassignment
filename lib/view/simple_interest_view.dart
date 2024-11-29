@@ -87,7 +87,8 @@ class _SimpleInterestViewState extends State<SimpleInterestView> {
                   onPressed: () {
                     if (myKey.currentState!.validate()) {
                       setState(() {
-                        double principal = double.parse(principalController.text);
+                        double principal =
+                            double.parse(principalController.text);
                         double rate = double.parse(rateController.text);
                         double time = double.parse(timeController.text);
 
